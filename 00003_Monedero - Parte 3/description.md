@@ -1,5 +1,3 @@
-¡Excelente! :clap: :clap: 
-
 Ahora desde el banco nos avisaron que crearon un tipo de cuenta nuevo :unamused: ... la caja de ahorro en dólares :dollar:.
 Se comporta de la misma forma que una caja de ahorro normal excepto por lo siguiente:
 
