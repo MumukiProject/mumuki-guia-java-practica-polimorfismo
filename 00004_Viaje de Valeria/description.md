@@ -12,8 +12,7 @@ Los alojamientos pueden calcular su `arancel`:
 * Los hoteles lo calculan multiplicando la `cantidadDeEstrellas` por la `cantidadDeNoches`
 * Los hosteles siempre cuestan $100, excepto estén marcados como que `incluyenDesayuno`, en ese caso cuestan el doble
 
-
-
+> Implementá una solución utilizando polimorfismo, pero sin usar **herencia**.
 
 
 
