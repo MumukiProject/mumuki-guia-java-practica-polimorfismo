@@ -9,13 +9,21 @@ public void before() {
 
 @Test
 public void depositar() {
-  cuenta.depositar(200);
-  Assert.assertEquals(200, cuenta.getSaldo());
+  cc.depositar(200);
+  cc.extraer(300);
+  Assert.assertEquals(-100, cc.getSaldo());
 }
 
 @Test
 public void extraer() {
-  cuenta.depositar(200);
-  cuenta.extraer(100);
-  Assert.assertEquals(100, cuenta.getSaldo());
+  ca.depositar(200);
+  ca.extraer(300);
+  Assert.assertEquals(200, ca.getSaldo());
+}
+
+@Test
+public void extraer() {
+  ca.depositar(200);
+  ca.extraer(100);
+  Assert.assertEquals(100, ca.getSaldo());
 }
