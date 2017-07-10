@@ -25,5 +25,5 @@ public void saldoEnPesosCA() {
 public void saldoEnPesosCAD() {
   cad.setCotizacion(17);
   cad.depositar(200);
-  Assert.assertEquals(2400, cad.saldoEnPesos());
+  Assert.assertEquals(3400, cad.saldoEnPesos());
 }
