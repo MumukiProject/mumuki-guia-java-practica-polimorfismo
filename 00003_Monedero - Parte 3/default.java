@@ -1,1 +1,5 @@
 /*... previousContent ...*/
+
+class CajaDeAhorroEnDolares {
+  
+}
