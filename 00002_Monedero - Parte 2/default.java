@@ -1,4 +1,4 @@
-/*... previous content ...*/
+/*... previousContent ...*/
 
 class CajaDeAhorro {
   
