@@ -1,0 +1,1 @@
+Recordá implementar `getSaldo` para poder obtener el saldo de la cuenta en cualquier momento.
