@@ -8,14 +8,14 @@ public void before() {
 }
 
 @Test
-public void depositar() {
+public void giroAlDescubierto() {
   cc.depositar(200);
   cc.extraer(300);
   Assert.assertEquals(-100, cc.getSaldo());
 }
 
 @Test
-public void extraer() {
+public void extraerMasDeLoQueSePuede() {
   ca.depositar(200);
   ca.extraer(300);
   Assert.assertEquals(200, ca.getSaldo());
