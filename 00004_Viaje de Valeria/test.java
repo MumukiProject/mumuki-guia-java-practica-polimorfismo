@@ -1,11 +1,11 @@
 Viaje viaje;
-Alojamiento alojamiento;
-Transporte transporte;
+//Alojamiento alojamiento;
+//Transporte transporte;
 
 @Test
 public void ConAvionYHotel() {
-  transporte = new Avion();
-  alojamiento = new Hotel();
+  Transporte transporte = new Avion();
+  Alojamiento alojamiento = new Hotel();
   transporte.setCostoPasaje(100);
   alojamiento.setCantidadDeNoches(4);
   alojamiento.setCantidadDeEstrellas(4);
