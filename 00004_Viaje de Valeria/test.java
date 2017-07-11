@@ -4,8 +4,8 @@ Transporte transporte;
 
 @Test
 public void ConAvionYHotel() {
-  transporte = new Avion();
-  alojamiento = new Hotel();
+  transporte = (Avion) new Avion();
+  alojamiento = (Hotel) new Hotel();
   transporte.setCostoPasaje(100);
   alojamiento.setCantidadDeNoches(4);
   alojamiento.setCantidadDeEstrellas(4);
