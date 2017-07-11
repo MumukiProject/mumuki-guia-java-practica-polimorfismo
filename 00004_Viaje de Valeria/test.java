@@ -1,8 +1,11 @@
-public Viaje viaje = new Viaje();
-public Alojamiento alojamiento;
-public Transporte transporte;
+Viaje viaje;
+Alojamiento alojamiento;
+Transporte transporte;
 
 @Test
-public void before() {
-     
+public void ConAvionYHotel() {
+  avion = new Avion();
+  avion.setCostoPasaje(100);
+  viaje = new Viaje(avion, new Hotel())
+  Assert.assertEquals();
 }

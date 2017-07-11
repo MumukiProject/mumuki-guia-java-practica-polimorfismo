@@ -9,6 +9,7 @@ Todos los transportes saben calcular su `costoTotal`:
 * ¡Ir en **bicicleta** siempre es gratis!.
 
 Los alojamientos pueden calcular su `arancel`:
+
 * Los **hoteles** lo calculan multiplicando la `cantidadDeEstrellas` por la `cantidadDeNoches`.
 * Las **cabañas** cuestan siempre $1000, excepto estén marcados como que `incluyenDesayuno`, en ese caso cuestan el doble.
 
