@@ -4,8 +4,11 @@ Transporte transporte;
 
 @Test
 public void ConAvionYHotel() {
-  avion = new Avion();
-  avion.setCostoPasaje(100);
-  viaje = new Viaje(avion, new Hotel());
-  Assert.assertEquals();
+  transporte = new Avion();
+  alojamiento = new Hotel();
+  transporte.setCostoPasaje(100);
+  alojamiento.setCantidadDeNoches(4);
+  alojamiento.setCantidadDeEstrellas(4);
+  viaje = new Viaje(transporte, alojamiento);
+  Assert.assertEquals(216, viaje.costoTotal());
 }
