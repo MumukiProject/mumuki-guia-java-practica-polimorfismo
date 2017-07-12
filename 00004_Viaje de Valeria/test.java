@@ -13,8 +13,8 @@ public void ConAvionYHotel() {
   Avion avion = new Avion();
   avion.setCostoPasaje(500);
   Hotel hotel = new Hotel();
-  hotel.setCantidadNoches(4);
-  hotel.setCantidadEstrellas(5);
+  hotel.setCantidadDeNoches(4);
+  hotel.setCantidadDeEstrellas(5);
   viaje = new Viaje(avion, hotel);
   Assert.assertEquals(2500, viaje.costoTotal());
 }
