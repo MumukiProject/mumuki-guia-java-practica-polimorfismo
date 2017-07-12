@@ -16,5 +16,5 @@ public void ConAvionYHotel() {
   hotel.setCantidadDeNoches(4);
   hotel.setCantidadDeEstrellas(5);
   viaje = new Viaje(avion, hotel);
-  Assert.assertEquals(2500, viaje.costoTotal());
+  Assert.assertEquals(1020, viaje.costoTotal());
 }
