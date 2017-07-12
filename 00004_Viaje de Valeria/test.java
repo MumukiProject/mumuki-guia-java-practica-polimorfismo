@@ -1,11 +1,9 @@
 Viaje viaje;
-Alojamiento alojamiento;
-Transporte transporte;
 
 @Test
 public void ConAvionYHotel() {
-  transporte = new Micro();
-  alojamiento = new Cabania();
-  viaje = new Viaje(transporte, alojamiento);
+  Micro micro = new Micro();
+  Cabania cabania = new Cabania();
+  viaje = new Viaje(micro, cabania);
   Assert.assertEquals(2500, viaje.costoTotal());
 }
