@@ -11,7 +11,7 @@ public void ConMicroYCabania() {
 @Test
 public void ConAvionYHotel() {
   Avion avion = new Avion();
-  avion.setPasaje(500);
+  avion.setCostoPasaje(500);
   Hotel hotel = new Hotel();
   hotel.setCantidadNoches(4);
   hotel.setCantidadEstrellas(5);
