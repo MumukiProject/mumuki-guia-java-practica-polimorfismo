@@ -29,10 +29,10 @@ public void ConBicicletaYDepartamentoSinDesayuno() {
 }
 
 @Test
-public void ConBicicletaYDepartamentoSinDesayuno() {
+public void ConBicicletaYDepartamentoConDesayuno() {
   Bicleta bicicleta = new Bicicleta();
   Departamento departamento = new Departamento();
-  departamento.setIncluyeDesayuno(false);
+  departamento.setIncluyeDesayuno(true);
   viaje = new Viaje(bicicleta, departamento);
   Assert.assertEquals(2000, viaje.costoTotal());
 }
