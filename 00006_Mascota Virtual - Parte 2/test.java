@@ -6,3 +6,11 @@ public void CuandoComeSePoneContenta() {
   mascota.comer();
   Assert.assertEquals("Contenta", mascota.getEstado().getClass().getName());
 }
+
+public void CuandoComeSePoneContenta() {
+  MascotaVirtual mascota = new MascotaVirtual();
+  mascota.comer();
+  Assert.assertEquals("Contenta", mascota.getEstado().getClass().getName());
+  mascota.comer();
+  Assert.assertEquals("Aburrida", mascota.getEstado().getClass().getName());
+}
