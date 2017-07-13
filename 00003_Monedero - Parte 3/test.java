@@ -1,5 +1,6 @@
 CuentaCorriente cc;
 CajaDeAhorro ca;
+CajaDeAhorroEnDolares cad;
 
 @Before
 public void before() {
