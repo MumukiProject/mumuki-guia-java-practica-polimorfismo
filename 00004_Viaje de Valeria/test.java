@@ -22,7 +22,7 @@ public void ConAvionYHotel() {
 
 @Test
 public void ConBicicletaYDepartamentoSinDesayuno() {
-  Bicileta bicicleta = new Bicicleta();
+  Bicicleta bicicleta = new Bicicleta();
   Departamento departamento = new Departamento();
   departamento.setIncluyeDesayuno(false);
   viaje = new Viaje(bicicleta, departamento);
@@ -31,7 +31,7 @@ public void ConBicicletaYDepartamentoSinDesayuno() {
 
 @Test
 public void ConBicicletaYDepartamentoConDesayuno() {
-  Bicileta bicicleta = new Bicicleta();
+  Bicicleta bicicleta = new Bicicleta();
   Departamento departamento = new Departamento();
   departamento.setIncluyeDesayuno(true);
   viaje = new Viaje(bicicleta, departamento);
