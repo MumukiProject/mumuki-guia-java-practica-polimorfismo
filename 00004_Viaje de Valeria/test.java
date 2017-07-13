@@ -18,3 +18,21 @@ public void ConAvionYHotel() {
   viaje = new Viaje(avion, hotel);
   Assert.assertEquals(1020, viaje.costoTotal());
 }
+
+@Test
+public void ConBicicletaYDepartamentoSinDesayuno() {
+  Bicleta bicicleta = new Bicicleta();
+  Departamento departamento = new Departamento();
+  departamento.setIncluyeDesayuno(false);
+  viaje = new Viaje(bicicleta, departamento);
+  Assert.assertEquals(1000, viaje.costoTotal());
+}
+
+@Test
+public void ConBicicletaYDepartamentoSinDesayuno() {
+  Bicleta bicicleta = new Bicicleta();
+  Departamento departamento = new Departamento();
+  departamento.setIncluyeDesayuno(false);
+  viaje = new Viaje(bicicleta, departamento);
+  Assert.assertEquals(2000, viaje.costoTotal());
+}
