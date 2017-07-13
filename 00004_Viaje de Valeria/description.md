@@ -6,7 +6,7 @@ Todos los transportes saben calcular su `costoTotal`:
 
 * Tomar un **avión** cuesta 2 veces el costo del pasaje.
 * Tomar un **micro** cuesta siempre $500.
-* ¡Ir en **bicicleta** siempre es gratis!.
+* ¡Ir en **bicicleta** siempre es gratis!
 
 Los alojamientos pueden calcular su `arancel`:
 
