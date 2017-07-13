@@ -3,9 +3,10 @@ Viaje viaje;
 @Test
 public void ConMicroYCabania() {
   Micro micro = new Micro();
-  Cabania cabania = new Cabania();
-  viaje = new Viaje(micro, cabania);
-  Assert.assertEquals(2500, viaje.costoTotal());
+  Departamento departamento = new Departamento();
+  departamento.setIncluyeDesayuno(false);
+  viaje = new Viaje(micro, departamento);
+  Assert.assertEquals(1500, viaje.costoTotal());
 }
 
 @Test
