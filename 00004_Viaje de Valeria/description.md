@@ -4,7 +4,7 @@ La fórmula es la siguiente :arrow_right: _costoTotal = costoDelTransporte + cos
 
 Todos los transportes saben calcular su `costoTotal`:
 
-* Tomar un **avión** cuesta 2 veces el costo del pasaje.
+* Tomar un **avión** cuesta 2 su `costoPasaje`.
 * Tomar un **micro** cuesta siempre $500.
 * ¡Ir en **bicicleta** siempre es gratis!
 
