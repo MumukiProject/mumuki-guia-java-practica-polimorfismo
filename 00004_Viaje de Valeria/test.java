@@ -1,7 +1,7 @@
 Viaje viaje;
 
 @Test
-public void ConMicroYCabania() {
+public void ConMicroYDepartamento() {
   Micro micro = new Micro();
   Departamento departamento = new Departamento();
   departamento.setIncluyeDesayuno(false);
