@@ -7,7 +7,7 @@ public void CuandoComeSePoneContenta() {
   Assert.assertEquals("Contenta", mascota.getEstado().getClass().getName());
 }
 
-public void CuandoComeSePoneContenta() {
+public void CuandoCome2VecesEstandoContentaSePoneAburrida() {
   MascotaVirtual mascota = new MascotaVirtual();
   mascota.comer();
   Assert.assertEquals("Contenta", mascota.getEstado().getClass().getName());
