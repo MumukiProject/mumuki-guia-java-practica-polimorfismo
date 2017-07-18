@@ -5,19 +5,19 @@ public void before() {
 }
 
 @Test
-public void CuandoNaceEstaHambrienta() {
+public void cuandoNaceEstaHambrienta() {
   Assert.assertEquals("Hambrienta", mascota.getEstado().getClass().getName());
 }
 
 @Test
-public void CuandoComeSePoneContenta() {
+public void cuandoComeSePoneContenta() {
   Assert.assertEquals("Hambrienta", mascota.getEstado().getClass().getName());
   mascota.comer();
   Assert.assertEquals("Contenta", mascota.getEstado().getClass().getName());
 }
 
 @Test
-public void CuandoCome2VecesEstandoContentaSePoneAburrida() {
+public void cuandoCome2VecesEstandoContentaSePoneAburrida() {
   mascota.comer();
   mascota.comer();
   mascota.comer();
@@ -25,14 +25,14 @@ public void CuandoCome2VecesEstandoContentaSePoneAburrida() {
 }
 
 @Test
-public void CuandoJuegaContentaEsMasMadura() {
+public void cuandoJuegaContentaEsMasMadura() {
   mascota.setEstado(new Contenta());
   mascota.jugar();
   Assert.assertEquals(2, mascota.getNivelDeMadurez());
 }
 
 @Test
-public void CuandoJuega2VecesEstandoContentaSePoneHambrienta() {
+public void cuandoJuega2VecesEstandoContentaSePoneHambrienta() {
   mascota.setEstado(new Contenta());
   mascota.jugar();
   mascota.jugar();
@@ -40,7 +40,7 @@ public void CuandoJuega2VecesEstandoContentaSePoneHambrienta() {
 }
 
 @Test
-public void SiJuegaEstandoAburridaSePoneContenta() {
+public void siJuegaEstandoAburridaSePoneContenta() {
   mascota.setEstado(new Aburrida());
   mascota.jugar();
   Assert.assertEquals("Contenta", mascota.getEstado().getClass().getName());
