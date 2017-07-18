@@ -5,19 +5,19 @@ public void before() {
 }
 
 @Test
-public void CuandoNaceEstaHambrienta() {
+public void cuandoNaceEstaHambrienta() {
   Assert.assertEquals("Hambrienta", mascota.getEstado().getClass().getName());
 }
 
 @Test
-public void CuandoComeSePoneContenta() {
+public void cuandoComeSePoneContenta() {
   Assert.assertEquals("Hambrienta", mascota.getEstado().getClass().getName());
   mascota.comer();
   Assert.assertEquals("Contenta", mascota.getEstado().getClass().getName());
 }
 
 @Test
-public void CuandoCome2VecesEstandoContentaSePoneAburrida() {
+public void cuandoCome2VecesEstandoContentaSePoneAburrida() {
   mascota.comer();
   mascota.comer();
   mascota.comer();
