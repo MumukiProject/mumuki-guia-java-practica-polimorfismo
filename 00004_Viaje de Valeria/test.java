@@ -1,7 +1,7 @@
 Viaje viaje;
 
 @Test
-public void ConMicroYDepartamento() {
+public void conMicroYDepartamento() {
   Micro micro = new Micro();
   Departamento departamento = new Departamento();
   departamento.setIncluyeDesayuno(false);
@@ -10,7 +10,7 @@ public void ConMicroYDepartamento() {
 }
 
 @Test
-public void ConAvionYHotel() {
+public void conAvionYHotel() {
   Avion avion = new Avion();
   avion.setCostoPasaje(500);
   Hotel hotel = new Hotel();
@@ -21,7 +21,7 @@ public void ConAvionYHotel() {
 }
 
 @Test
-public void ConBicicletaYDepartamentoSinDesayuno() {
+public void conBicicletaYDepartamentoSinDesayuno() {
   Bicicleta bicicleta = new Bicicleta();
   Departamento departamento = new Departamento();
   departamento.setIncluyeDesayuno(false);
@@ -30,7 +30,7 @@ public void ConBicicletaYDepartamentoSinDesayuno() {
 }
 
 @Test
-public void ConBicicletaYDepartamentoConDesayuno() {
+public void conBicicletaYDepartamentoConDesayuno() {
   Bicicleta bicicleta = new Bicicleta();
   Departamento departamento = new Departamento();
   departamento.setIncluyeDesayuno(true);
