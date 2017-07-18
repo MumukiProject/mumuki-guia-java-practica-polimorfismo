@@ -1,6 +1,6 @@
 @Test
 
-public void CuandoComeSePoneContenta() {
+public void cuandoComeSePoneContenta() {
   MascotaVirtual mascota = new MascotaVirtual();
   Assert.assertEquals("hambrienta", mascota.getEstado());
   mascota.comer();
