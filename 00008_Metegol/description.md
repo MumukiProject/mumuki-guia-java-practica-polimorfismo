@@ -2,11 +2,13 @@
 
 Analicemos la situación:
 
-* El metegol consta de `Jugadores`
-* Existen varios tipos de `Jugadores`:
-  * `Delanteros`
-  * `Mediocampistas`
-  * `Defensores`
-  * `Arqueros`
+* El `Metegol` consta de 11 `Jugador`es como el fútbol de verdad
+* De cada jugador conocemos su `antigüedad`, `posición` y su `nacionalidad`.
+* Las `posicion`es pueden ser:
+  * _arquero_
+  * _defensor_
+  * _mediocampista_
+  * _delantero_
+
 
 
