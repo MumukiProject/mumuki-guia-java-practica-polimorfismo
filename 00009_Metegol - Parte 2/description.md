@@ -5,7 +5,7 @@ Analicemos la situación:
 * De cada jugador conocemos su `posición`
 * Un `Jugador` nunca puede cambiar de `posición`
 * Las `posicion`es pueden ser:
-  * `Arquero` :arrow_right: Los arqueros nunca son hábiles
-  * `Defensor` :arrow_right: Por ahora la habilidad de los defensores es siempre 10
-  * `Atacante` :arrow_right: Su habilidad se calcula como 2 veces su `cantidadDeGiros`
+  * `Arquero` => Los arqueros nunca son hábiles
+  * `Defensor` => Por ahora la habilidad de los defensores es siempre 10
+  * `Atacante` => Su habilidad se calcula como 2 veces su `cantidadDeGiros`
 
