@@ -6,6 +6,6 @@ Analicemos la situación:
 * Un `Jugador` nunca puede cambiar de `posición`
 * Las `posicion`es pueden ser:
   * `Arquero` => Los arqueros nunca son hábiles
-  * `Defensor` => Por ahora la habilidad de los defensores es siempre 10
-  * `Atacante` => Su habilidad se calcula como 2 veces su `cantidadDeGiros`
+  * `Defensor` => Por ahora la `habilidad` de los defensores es siempre 10
+  * `Atacante` => Su `habilidad` se calcula como 2 veces su `cantidadDeGiros`
 
