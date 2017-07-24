@@ -1,29 +1,29 @@
-BovedaPura bovedaPura;
-BovedaMestiza bovedaMestiza;
+BovedaDeBajaSeguridad bovedaInsegura;
+BovedaDeAltaSeguridad bovedaSegura;
 
 @Before
 public void before() {
-  bovedaPura = new BovedaPura();
-  bovedaMestiza = new BovedaMestiza();
+  bovedaInsegura = new BovedaDeBajaSeguridad();
+  bovedaSegura = new BovedaDeAltaSeguridad();
 }
 
 @Test
 public void giroAlDescubierto() {
-  bovedaPura.depositar(200);
-  bovedaPura.extraer(300);
+  bovedaInsegura.depositar(200);
+  bovedaInsegura.extraer(300);
   Assert.assertEquals(-100, bovedaPura.getCantidadDeMonedas());
 }
 
 @Test
 public void extraerMasDeLoQueSePuede() {
-  bovedaMestiza.depositar(200);
-  bovedaMestiza.extraer(300);
-  Assert.assertEquals(200, bovedaMestiza.getCantidadDeMonedas());
+  bovedaSegura.depositar(200);
+  bovedaSegura.extraer(300);
+  Assert.assertEquals(200, bovedaSegura.getCantidadDeMonedas());
 }
 
 @Test
 public void extraer() {
-  bovedaMestiza.depositar(200);
-  bovedaMestiza.extraer(100);
-  Assert.assertEquals(100, bovedaMestiza.getCantidadDeMonedas());
+  bovedaSegura.depositar(200);
+  bovedaSegura.extraer(100);
+  Assert.assertEquals(100, bovedaSegura.getCantidadDeMonedas());
 }
