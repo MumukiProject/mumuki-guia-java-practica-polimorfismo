@@ -1,9 +1,9 @@
 /*...previousContent...*/
 
-class CajaDeAhorro {
+class BovedaDeAltaSeguridad {
   
 }
 
-class CuentaCorriente {
+class BovedaDeBajaSeguridad {
   
 }
