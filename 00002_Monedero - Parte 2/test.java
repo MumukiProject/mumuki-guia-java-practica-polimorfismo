@@ -1,29 +1,29 @@
-CuentaCorriente cc;
-CajaDeAhorro ca;
+BovedaPura bovedaPura;
+BovedaMestiza bovedaMestiza;
 
 @Before
 public void before() {
-  cc = new CuentaCorriente();
-  ca = new CajaDeAhorro();
+  bovedaPura = new BovedaPura();
+  bovedaMestiza = new BovedaMestiza();
 }
 
 @Test
 public void giroAlDescubierto() {
-  cc.depositar(200);
-  cc.extraer(300);
-  Assert.assertEquals(-100, cc.getSaldo());
+  bovedaPura.depositar(200);
+  bovedaPura.extraer(300);
+  Assert.assertEquals(-100, bovedaPura.getCantidadDeMonedas());
 }
 
 @Test
 public void extraerMasDeLoQueSePuede() {
-  ca.depositar(200);
-  ca.extraer(300);
-  Assert.assertEquals(200, ca.getSaldo());
+  bovedaMestiza.depositar(200);
+  bovedaMestiza.extraer(300);
+  Assert.assertEquals(200, bovedaMestiza.getCantidadDeMonedas());
 }
 
 @Test
 public void extraer() {
-  ca.depositar(200);
-  ca.extraer(100);
-  Assert.assertEquals(100, ca.getSaldo());
+  bovedaMestiza.depositar(200);
+  bovedaMestiza.extraer(100);
+  Assert.assertEquals(100, bovedaMestiza.getCantidadDeMonedas());
 }
