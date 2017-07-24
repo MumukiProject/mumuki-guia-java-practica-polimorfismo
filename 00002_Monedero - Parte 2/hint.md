@@ -1,1 +1,0 @@
-¿De qué forma podrás reutilizar la lógica del ejercicio anterior y al mismo tiempo tratar polimórficamente a los nuevos tipos de cuenta?  :hushed:
