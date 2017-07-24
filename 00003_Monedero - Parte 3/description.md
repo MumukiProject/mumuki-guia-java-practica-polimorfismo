@@ -1,11 +1,12 @@
-Ahora desde el banco nos avisaron que crearon un tipo de cuenta nuevo :unamused: ... la caja de ahorro en dólares :dollar:.
-Se comporta de la misma forma que una caja de ahorro normal excepto por lo siguiente:
+Luego de que intentaron penetrar una de las `BovedaDeAltaSeguridad` nuestros queridos duendes entrenaron un... ¡Dragón! :fire::snake:. 
 
-* Conoce la `cotización` actual del dolar.
-* Si bien el `saldo` está en dólares, sabe calcular el `saldoEnPesos`.
+Por lo que si sos un mago con mucho podés contratar una `BovedaDelDragon`.
+Las `BovedaDelDragon` tienen el mismo comportamiento que las `BovedaDeAltaSeguridad` excepto que:
+
+* Cada `BovedaDelDragon` conoce la `codiciaDelDragon` que la cuida.
+* Cada vez que se consulta la `cantidadDeMonedas` el dragón se roba el proporcional a su codicia antes de responder.
 
 > Implementá los nuevos requerimientos teniendo en cuenta que:
 >
-> * Ahora todas las cuentas saben calcular su saldo en pesos
-> * Los tres tipos de cuenta deben poder ser tratadas de forma polimórfica
+> * Los tres tipos de `Boveda` deben poder ser tratadas de forma polimórfica.
 

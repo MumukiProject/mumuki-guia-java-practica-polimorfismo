@@ -1,50 +1,38 @@
-CuentaCorriente cc;
-CajaDeAhorro ca;
-CajaDeAhorroEnDolares cad;
+BovedaDeBajaSeguridad bbs;
+BovedaDeAltaSegurodad bas;
+BovedaDelDragon bbd;
 
 @Before
 public void before() {
-  cc = new CuentaCorriente();
-  ca = new CajaDeAhorro();
-  cad = new CajaDeAhorroEnDolares();
+  bbs = new BovedaDeBajaSeguridad();
+  bas = new BovedaDeAltaSegurodad();
+  bbd = new BovedaDelDragon();
 }
 
 @Test
 public void giroAlDescubierto() {
-  cc.depositar(200);
-  cc.extraer(300);
-  Assert.assertEquals(-100, cc.getSaldo());
+  bbs.depositar(200);
+  bbs.extraer(300);
+  Assert.assertEquals(-100, bbs.getCantidadDeMonedas());
 }
 
 @Test
 public void extraerMasDeLoQueSePuede() {
-  ca.depositar(200);
-  ca.extraer(300);
-  Assert.assertEquals(200, ca.getSaldo());
+  bas.depositar(200);
+  bas.extraer(300);
+  Assert.assertEquals(200, bas.getCantidadDeMonedas());
 }
 
 @Test
-public void extraer() {
-  ca.depositar(200);
-  ca.extraer(100);
-  Assert.assertEquals(100, ca.getSaldo());
+public void extraerLoJusto() {
+  bas.depositar(200);
+  bas.extraer(200);
+  Assert.assertEquals(0, bas.getCantidadDeMonedas());
 }
 
 @Test
-public void saldoEnPesosCC() {
-  cc.depositar(200);
-  Assert.assertEquals(200, cc.saldoEnPesos());
-}
-
-@Test
-public void saldoEnPesosCA() {
-  ca.depositar(200);
-  Assert.assertEquals(200, ca.saldoEnPesos());
-}
-
-@Test
-public void saldoEnPesosCAD() {
-  cad.setCotizacion(17);
-  cad.depositar(200);
-  Assert.assertEquals(3400, cad.saldoEnPesos());
+public void cantidadDeMonedasEnBovedaDelDragon() {
+  bbd.setCodiciaDelDragon(5);
+  bbd.depositar(200);
+  Assert.assertEquals(195, bbd.getCantidadDeMonedas());
 }
