@@ -1,1 +1,1 @@
-Recordá implementar `getSaldo` para poder obtener el saldo de la cuenta en cualquier momento.
+Recordá implementar `getCantidadDeMonedas` para poder obtener el saldo de la cuenta en cualquier momento.
