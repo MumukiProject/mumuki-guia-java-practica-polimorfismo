@@ -7,5 +7,5 @@ Analicemos la situación:
 * Las `posicion`es pueden ser:
   * `Arquero` => Los arqueros nunca son hábiles
   * `Defensor` => Por ahora la `habilidad` de los defensores es siempre 10
-  * `Atacante` => Su `habilidad` se calcula como 2 veces su `cantidadDeGiros`
+  * `Delanter` => Su `habilidad` se calcula como 2 veces su `cantidadDeGiros`
 
