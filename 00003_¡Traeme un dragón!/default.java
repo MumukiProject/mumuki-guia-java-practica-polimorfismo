@@ -1,5 +1,5 @@
 /*...previousContent...*/
 
-class CajaDeAhorroEnDolares {
+class BovedaDelDragon {
   
 }
