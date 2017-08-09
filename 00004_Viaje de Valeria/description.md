@@ -1,4 +1,6 @@
-Nuestra amiga Vale se va de viaje, y nos pidió ayuda para saber cuánto va a gastar, según la fórmula `costoTotal = costoDelTransporte + costoDelAlojamiento`.
+Nuestra amiga Vale se va de viaje, y nos pidió ayuda para saber cuánto va a gastar. 
+
+La fórmula es la siguiente: `costoTotal = costoDelTransporte + costoDelAlojamiento`.
 
 Todos los transportes saben calcular su `costoTotal`:
 
