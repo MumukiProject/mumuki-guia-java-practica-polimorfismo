@@ -7,7 +7,7 @@ class Viaje {
     this.alojamiento = alojamiento;
   }
   
-  int cuantoCuesta() {
+  double cuantoCuesta() {
     return transporte.costoTotal() + alojamiento.arancel();
   }
 }
