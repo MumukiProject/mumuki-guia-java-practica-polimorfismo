@@ -12,5 +12,5 @@ aVillaCarlosPaz.setCostoPasaje(300);
 Viaje aTanti = new Viaje(330);
 ```
 
-Dado que esta última forma es más simple, resolvé los ejercicios de esta guía usando constructores y no setters. 
+Dado que esta última variante es más simple, resolvé los ejercicios de esta guía usando constructores y no setters. 
 
