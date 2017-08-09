@@ -1,6 +1,6 @@
 class MascotaVirtual {
   
-  public String getEstado() {
+  String getEstado() {
     return estado;
   }
 }
