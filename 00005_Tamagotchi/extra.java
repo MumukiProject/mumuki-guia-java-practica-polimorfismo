@@ -1,8 +1,8 @@
 class PruebaMascota {
   void darDeComerAUnaMascota() {
     MascotaVirtual koromon = new MascotaVirtual();
-    koromon.estaHambrienta();
+    koromon.estaHambrienta(); // deuelve true
     koromon.comer();
-    koromon.estaContenta();
+    koromon.estaContenta(); // deuelve true
   }
 }
