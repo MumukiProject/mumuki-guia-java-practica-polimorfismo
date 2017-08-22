@@ -1,0 +1,1 @@
+Por si lo estás pensando: no, una mascota **no puede** estar al mismo tiempo contenta **y** hambrienta. 
