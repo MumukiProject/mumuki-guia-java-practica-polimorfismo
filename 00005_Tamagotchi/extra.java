@@ -1,4 +1,4 @@
-class PruebasMascota {
+class PruebaMascota {
   void darDeComerAUnaMascota() {
     MascotaVirtual koromon = new MascotaVirtual();
     koromon.estaHambrienta();
