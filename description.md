@@ -1,1 +1,1 @@
-Ahora que ya aprendiste a utilizar polimorfismo en Java <i class="da da-java"></i>, vamos a practicar un poco. ¡Adelante!
+Ahora que ya aprendiste a utilizar polimorfismo en Java, vamos a practicar un poco. ¡Adelante!
