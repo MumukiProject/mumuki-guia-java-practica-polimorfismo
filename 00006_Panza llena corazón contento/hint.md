@@ -1,0 +1,1 @@
+La clave para no usar `if`s es nuestro viejo amigo: el polimofirmo. 

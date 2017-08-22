@@ -1,25 +1,25 @@
-MascotaVirtual mascota;
-@Before
-public void before() {
-  mascota = new MascotaVirtual();
+@Test
+public void cuando_come_se_pone_contenta() {
+  MascotaVirtual mascota = new MascotaVirtual();
+  mascota.comer();
+  Assert.assertTrue(mascota.estaContenta());
 }
 
 @Test
-public void cuandoNaceEstaHambrienta() {
-  Assert.assertEquals("Hambrienta", mascota.getEstado().getClass().getName());
+public void cuando_come_deja_de_estar_hambrienta() {
+  MascotaVirtual mascota = new MascotaVirtual();
+  mascota.comer();
+  Assert.assertFalse(mascota.estaHambrienta());
 }
 
 @Test
-public void cuandoComeSePoneContenta() {
-  Assert.assertEquals("Hambrienta", mascota.getEstado().getClass().getName());
-  mascota.comer();
-  Assert.assertEquals("Contenta", mascota.getEstado().getClass().getName());
+public void cuando_inicia_esta_hambrienta() {
+  MascotaVirtual mascota = new MascotaVirtual();
+  Assert.assertTrue(mascota.estaHambrienta());
 }
 
 @Test
-public void cuandoCome2VecesEstandoContentaSePoneAburrida() {
-  mascota.comer();
-  mascota.comer();
-  mascota.comer();
-  Assert.assertEquals("Aburrida", mascota.getEstado().getClass().getName());
+public void cuando_inicia_no_esta_contenta() {
+  MascotaVirtual mascota = new MascotaVirtual();
+  Assert.assertFalse(mascota.estaContenta());
 }

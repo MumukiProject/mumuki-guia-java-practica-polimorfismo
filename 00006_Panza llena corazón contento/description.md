@@ -1,7 +1,9 @@
-Ahora se pone mas dificil. Esto es lo que pasa cuando la mascota come:
+Ahora se pone mas dificil. En realidad, según su estado, pasan cosas distintas cuando come:
 
-* Si esta `hambrienta`, se pone contenta.
-* Si esta `contenta`, su `nivelDeMadurez` aumenta en 1.
-* Si come 2 veces seguidas estando `contenta`, se pone `aburrida`.
+* si está hambrienta, se pone contenta;
+* pero si ya estaba contenta, le da sueño. 
+* y estaba con sueño, no pasa nada. 
 
-> Implementá estos nuevos requerimientos. Tené en cuenta que no podes consultar el estado actual de la mascota en ningún momento para resolver el ejercicio.
+> Modificá tu solución para que soporte los nuevos requerimientos. 
+> 
+> ¡Cuidado! Si usás `if`s casi seguro tu código se va a volver bastante complicado, ¡así que no lo uses!
