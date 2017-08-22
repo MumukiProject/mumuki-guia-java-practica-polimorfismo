@@ -11,7 +11,4 @@ class PruebaMascota {
     koromon.comer();
     koromon.estaCansada(); // devuevle true
   }
-  
-  
-  
 }
