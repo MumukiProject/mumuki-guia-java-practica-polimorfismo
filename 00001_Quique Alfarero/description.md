@@ -4,9 +4,9 @@ De cada `Boveda` sabemos su saldo (su cantidad de monedas), que inicialmente es 
  
 ```java
 Boveda unaBoveda = new Boveda();
-unaBoveda.saldo(); // devuelve 0
+unaBoveda.getSaldo(); // devuelve 0
 unaBoveda.depositarMonedas(30); 
-unaBoveda.saldo(); // ahora devuelve 30 
+unaBoveda.getSaldo(); // ahora devuelve 30 
 unaBoveda.extraerMonedas(15); 
 unaBoveda.extraerMonedas(20); // debería fallar con una excepción, 
                               // porque no puede quedar con una cantidad negativa de monedas  
