@@ -37,6 +37,8 @@ public void si_se_depositan_50_monedas_y_luego_se_extraen_100_y_la_seguridad_baj
 
 @Test
 public void si_se_depositan_50_monedas_y_luego_se_extraen_100_y_la_seguridad_es_media_el_saldo_50() {
+  boveda.asegurarCon(new SeguridadMedia());
+
   boveda.depositarMonedas(50);
   boveda.extraerMonedas(100);
   Assert.assertEquals(50, boveda.getSaldo());
