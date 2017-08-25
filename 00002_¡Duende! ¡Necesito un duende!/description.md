@@ -1,4 +1,4 @@
-_Las cosas son mas complejas, Quique..._
+_Las cosas son mas complejas, Quique... :zap:_
 
 Resulta que en los duendes administran 2 tipos de `Boveda`: las `BovedaDeBajaSeguridad` y las `BovedaDeAltaSeguridad`.
 
