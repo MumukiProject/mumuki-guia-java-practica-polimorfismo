@@ -1,6 +1,0 @@
----
-expectations:
-- binding: "*"
-  inspection: Not:UsesIf
-- binding: "*"
-  inspection: UsesStaticPolymorphism
