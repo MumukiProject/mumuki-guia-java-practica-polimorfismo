@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresClass:SeguridadAlta
+- binding: SeguridadAlta
+  inspection: Implements:*
