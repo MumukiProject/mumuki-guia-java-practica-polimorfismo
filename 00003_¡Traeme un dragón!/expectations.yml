@@ -4,3 +4,5 @@ expectations:
   inspection: DeclaresClass:SeguridadAlta
 - binding: SeguridadAlta
   inspection: Implements:*
+- binding: Intransitive:Boveda
+  inspection: Not:UsesIf
