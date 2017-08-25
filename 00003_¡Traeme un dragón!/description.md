@@ -1,12 +1,18 @@
-Luego de que intentaron penetrar una de las `BovedaDeAltaSeguridad` nuestros queridos duendes entrenaron un... ¡Dragón! :fire::dragon:. 
+_Y no hay dos sin tres :stuck_out_tongue:_
 
-Por lo que si sos un mago con mucho poder podés contratar una `BovedaDelDragon`.
-Las `BovedaDelDragon` tienen el mismo comportamiento que las `BovedaDeAltaSeguridad` excepto que:
+Finalmente y tras algunas pérdidas económicas nuestros queridos duendes se dieron cuenta de que necesitaban bovedas de alta seguridad, que protegen con dragones. 
 
-* Cada `BovedaDelDragon` conoce la `codiciaDelDragon` que la cuida.
-* Cada vez que se consulta la `cantidadDeMonedas` el dragón se roba el proporcional a su codicia antes de responder.
+Las bóvedas de alta seguridad lanzan una excepción si se trata de extraer más monedas que el saldo. Pero nada es gratis: cada vez que se hace un depósito, el banco se lleva una moneda. 
 
-> Implementá los nuevos requerimientos teniendo en cuenta que:
->
-> * Los tres tipos de `Boveda` deben poder ser tratadas de forma polimórfica.
+```java
+Boveda boveda = new Boveda();
+boveda.asegurarCon(new SeguridadAlta());
+boveda.depositarMonedas(20); // deposita 19 monedas
+boveda.depositarMonedas(10); // deposita 9 monedas
+boveda.getSaldo(); // devuelve 29, porque la seguridad 
+                   // alta se cobró 2 monedas
+boveda.extraerMonedas(50); // ¡lanza una excepción!
+```
+
+> ¡Agregá lo necesario para soportar los nuevos requerimientos! Y recordá que el polimorfismo es tu amigo :grin:.
 
