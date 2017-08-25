@@ -1,7 +1,6 @@
-Nuestro hechicero amigo _Quique Alfarero_ :zap: recibió una suculenta herencia por parte de sus padres y nos pidió ayuda para saber como funciona el banco :bank:  de los duendes.
+Nuestro hechicero amigo _Quique Alfarero_ :zap: recibió una suculenta herencia por parte de sus padres y nos pidió ayuda para saber como funciona el banco :bank:  de los duendes. 
 
-* De cada `Boveda` sabemos su cantidad de monedas (inicialmente es 0)
-* De cada cuenta se pueden `extraerMonedas` y `depositarMonedas`. Por ejemplo: 
+De cada `Boveda` sabemos su saldo (su cantidad de monedas), que inicialmente es 0. Además, de cada una se pueden `extraerMonedas` y `depositarMonedas`. Por ejemplo: 
  
 ```java
 Boveda unaBoveda = new Boveda();
