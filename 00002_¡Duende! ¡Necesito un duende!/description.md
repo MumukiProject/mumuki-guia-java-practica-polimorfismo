@@ -1,7 +1,22 @@
 _Las cosas son mas complejas, Quique... :zap:_
 
-Resulta que en los duendes administran 2 tipos de `Boveda`: las `BovedaDeBajaSeguridad` y las `BovedaDeAltaSeguridad`.
+Resulta que en los duendes administran 2 niveles de seguridad para las bóvedas: las de `SeguridadBaja` y las de `SeguridadMedia`. ¿La diferencia? Cuando sacás monedas de más...
 
-La única diferencia consiste en que mientras que en las `BovedaDeBajaSeguridad` no hay límite de `moneda`s para extraer, las `BovedaDeAltaSeguridad` no permiten extraer mas `moneda`s que las actuales, en ese caso no hacen nada.
+* ...en una cuenta de seguridad baja, el saldo queda en negativo;
+* pero en una cuenta de seguridad media, el saldo no se modifica. 
 
-> Implementá ambas clases de manera polimórfica, reutilizando la mayor cantidad de lógica posible  :wink:.
+Veamos un ejemplo: 
+
+```java
+Boveda boveda = new Boveda();
+boveda.asegurarCon(new SeguridadMedia());
+boveda.extraerMonedas(20);
+boveda.getSaldo(); // Sigue siendo 0
+
+boveda.asegurarCon(new SeguridadBaja());
+boveda.extraerMonedas(20);
+boveda.getSaldo(); // Ahora es -20
+```
+
+> ¡Agregale seguridad a las cuentas! Completá el código y modificá lo que ya hiciste para poder utilizar las cuentas como en el ejemplo. 
+

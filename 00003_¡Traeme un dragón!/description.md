@@ -1,4 +1,4 @@
-Luego de que intentaron penetrar una de las `BovedaDeAltaSeguridad` nuestros queridos duendes entrenaron un... ¡Dragón! :fire::snake:. 
+Luego de que intentaron penetrar una de las `BovedaDeAltaSeguridad` nuestros queridos duendes entrenaron un... ¡Dragón! :fire::dragon:. 
 
 Por lo que si sos un mago con mucho poder podés contratar una `BovedaDelDragon`.
 Las `BovedaDelDragon` tienen el mismo comportamiento que las `BovedaDeAltaSeguridad` excepto que:

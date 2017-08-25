@@ -7,9 +7,8 @@ Boveda unaBoveda = new Boveda();
 unaBoveda.getSaldo(); // devuelve 0
 unaBoveda.depositarMonedas(30); 
 unaBoveda.getSaldo(); // ahora devuelve 30 
-unaBoveda.extraerMonedas(15); 
-unaBoveda.extraerMonedas(20); // debería fallar con una excepción, 
-                              // porque no puede quedar con una cantidad negativa de monedas  
+unaBoveda.extraerMonedas(20); 
+unaBoveda.getSaldo(); // ahora devuelve 10 
 ```
 
 > Implementá una clase `Boveda` de forma que se pueda usar como en el ejemplo.

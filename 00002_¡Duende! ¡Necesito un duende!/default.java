@@ -1,9 +1,9 @@
 /*...previousContent...*/
 
-class BovedaDeAltaSeguridad {
-  
+class SeguridadAlta {
+  // completá acá...
 }
 
-class BovedaDeBajaSeguridad {
-  
+class SeguridadBaja {
+  // completá acá...
 }

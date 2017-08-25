@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresInterface
+- binding: "*"
+  inspection: UsesStaticPolymorphism
+- binding: SeguridadBaja
+  inspection: Implements:*
+- binding: SeguridadMedia
+  inspection: Implements:*

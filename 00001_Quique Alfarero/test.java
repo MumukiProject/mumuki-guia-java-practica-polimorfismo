@@ -25,9 +25,3 @@ public void si_se_depositan_50_monedas_y_luego_se_extraen_20_el_saldo_es_30() {
   Assert.assertEquals(30, boveda.getSaldo());
 }
 
-
-@Test(expected = RuntimeException.class)
-public void si_se_depositan_50_monedas_y_luego_se_extraen_90_se_lanza_una_excepcion() {
-  boveda.depositarMonedas(50);
-  boveda.extraerMonedas(90);
-}
