@@ -1,6 +1,16 @@
 Nuestro hechicero amigo _Quique Alfarero_ :zap: recibió una suculenta herencia por parte de sus padres y nos pidió ayuda para saber como funciona el banco :bank:  de los duendes.
 
-* Cada `Boveda` sabe su `cantidadDeMonedas` :moneybag: actual, es de tipo `int` e inicialmente es 0.
-* De cada cuenta se pueden `extraer` y `depositar` monedas.
+* De cada `Boveda` sabemos su cantidad de monedas (inicialmente es 0)
+* De cada cuenta se pueden `extraerMonedas` y `depositarMonedas`. Por ejemplo: 
+ 
+```java
+Boveda unaBoveda = new Boveda();
+unaBoveda.saldo(); // devuelve 0
+unaBoveda.depositarMonedas(30); 
+unaBoveda.saldo(); // ahora devuelve 30 
+unaBoveda.extraerMonedas(15); 
+unaBoveda.extraerMonedas(20); // debería fallar con una excepción, 
+                              // porque no puede quedar con una cantidad negativa de monedas  
+```
 
-> Implementá una clase `Boveda` que cumpla estos requerimientos.
+> Implementá una clase `Boveda` de forma que se pueda usar como en el ejemplo.
