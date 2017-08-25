@@ -1,4 +1,4 @@
-_Y no hay dos sin tres :stuck_out_tongue:_
+_Y no hay dos sin tres_ :stuck_out_tongue:
 
 Finalmente y tras algunas pérdidas económicas nuestros queridos duendes se dieron cuenta de que necesitaban bovedas de alta seguridad, que protegen con dragones. 
 
