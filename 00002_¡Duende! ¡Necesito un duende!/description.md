@@ -1,4 +1,6 @@
-Los duendes administran 2 tipos de `Boveda`, las `BovedaDeBajaSeguridad` y las `BovedaDeAltaSeguridad`.
+_Las cosas son mas complejas, Quique..._
+
+Resulta que en los duendes administran 2 tipos de `Boveda`: las `BovedaDeBajaSeguridad` y las `BovedaDeAltaSeguridad`.
 
 La única diferencia consiste en que mientras que en las `BovedaDeBajaSeguridad` no hay límite de `moneda`s para extraer, las `BovedaDeAltaSeguridad` no permiten extraer mas `moneda`s que las actuales, en ese caso no hacen nada.
 
