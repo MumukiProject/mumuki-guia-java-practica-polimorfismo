@@ -1,6 +1,6 @@
 _Y no hay dos sin tres_ :stuck_out_tongue:
 
-Finalmente y tras algunas pérdidas económicas nuestros queridos duendes se dieron cuenta de que necesitaban bovedas de alta seguridad, que protegen con dragones :dragon:. 
+Finalmente y tras algunas pérdidas económicas nuestros queridos duendes se dieron cuenta de que necesitaban bóvedas de alta seguridad, que protegen con dragones :dragon:. 
 
 Las bóvedas de alta seguridad lanzan una excepción si se trata de extraer más monedas que el saldo. Pero nada es gratis: cada vez que se hace un depósito, el banco se lleva una moneda. 
 
