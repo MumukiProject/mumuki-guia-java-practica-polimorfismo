@@ -4,4 +4,4 @@ Queremos enviar cartas y paquetes y, en principio, nos vamos a concentrar en las
 
 Por otro lado, la carta conoce la cantidad de líneas escritas que hay en ella. Siempre `esPequenio`, y su peso se calcula como la cantidad de líneas * 0.1 + 2g del peso del papel.
 
-> Agregá las clases `Paquete` y `Carta` con sus métodos y constructores correspondientes y luego _enviá_ tu solución. :stuck_out_tongue_winking_eye: 
+> Agregá las clases `Paquete` y `Carta` con sus métodos y constructores correspondientes.
