@@ -1,4 +1,4 @@
-_Las cosas son mas complejas, Quique... :zap:_
+_Las cosas son más complejas, Quique... :zap:_
 
 Resulta que los duendes administran 2 niveles de seguridad para las bóvedas: las de `SeguridadBaja` y las de `SeguridadMedia`. ¿La diferencia? Cuando sacás monedas de más...
 
