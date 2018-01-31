@@ -1,6 +1,6 @@
 Bien, suficientes envíos por hoy. ¡Entreguémolos y demos esto por terminado! :no_good: 
 
-Un `Cartero` tiene un envío, que puede ser tanto corta distancia como urgente. Además, nos interesan dos cosas:
+Un `Cartero` tiene un envío, que puede ser tanto corta distancia como urgente. Del cartero nos interesan dos cosas:
 
 * Que nos pueda decir la cantidad de `kilometrosQueRecorrera`, que dependerá de la distancia entre ciudades;
 * Que nos pueda decir la `comision` por envío que va a cobrar. Para los envíos comunes es el 10% del costo, mientras que para los urgentes es el 20%. ¡Recordá delegar apropiadamente! :wink: 
