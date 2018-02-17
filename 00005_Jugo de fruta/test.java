@@ -53,5 +53,5 @@ public void un_jugo_de_naranja_tiene_205_ml_de_jugo_total() {
 @Test
 public void un_jugo_de_pomelo_tiene_230_ml_de_jugo_total() {
   Jugo jugoDePomelo = new Jugo(pomelo);
-  Assert.assertEquals(205, jugoDePomelo.jugoTotal());
+  Assert.assertEquals(230, jugoDePomelo.jugoTotal());
 }
