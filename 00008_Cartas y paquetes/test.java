@@ -36,6 +36,6 @@ public void las_cartas_siempre_son_pequenias() {
 
 @Test
 public void el_peso_de_una_carta_depende_de_su_cantidad_de_lineas_y_el_peso_del_papel() {
-  Assert.assertEquals(3, cartaCorta.peso());
-  Assert.assertEquals(53, cartaLarga.peso());
+  Assert.assertEquals(12, cartaCorta.peso(), 0);
+  Assert.assertEquals(502, cartaLarga.peso(), 0);
 }
