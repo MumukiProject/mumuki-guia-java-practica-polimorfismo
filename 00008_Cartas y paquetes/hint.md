@@ -1,0 +1,1 @@
+:hand: Importante: para saber si un `Paquete` es liviano se tiene en cuenta el `peso` total, incluyendo la caja.
