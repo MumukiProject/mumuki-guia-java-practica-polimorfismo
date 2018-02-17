@@ -19,7 +19,7 @@ public void un_pomelo_da_130_ml_de_jugo() {
 
 @Test
 public void una_manzana_no_es_acida() {
-  Assert.assertFalse(manzaana.esAcida());
+  Assert.assertFalse(manzana.esAcida());
 }
 
 @Test
