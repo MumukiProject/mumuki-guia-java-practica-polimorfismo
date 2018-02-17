@@ -11,8 +11,8 @@ Una vez que tenemos la materia prima, podemos armarnos un jugo simple: está com
 > ```java
 > manzana.jugo();
 > naranja.esAcida();
-> jugoDeManzana = new JugoSimple(new Manzana());
-> jugoDeNaranja = new JugoSimple(new Naranja());
+> jugoDeManzana = new JugoSimple(manzana);
+> jugoDeNaranja = new JugoSimple(naranja);
 > jugoDePomelo.tieneMuchaVitaminaC();
 > jugoDeNaranja.jugoTotal();
 > ```
