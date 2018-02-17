@@ -21,8 +21,8 @@ public void un_jugo_mixto_de_manzana_y_pomelo_tiene_mucha_vitamina_c() {
 }
 
 @Test
-public void un_jugo_mixto_de_manzana_y_naranja_tiene_245_ml_de_jugo_total() {
-  Assert.assertEquals(245, jugoDeManzanaYNaranja.jugoTotal());
+public void un_jugo_mixto_de_manzana_y_naranja_tiene_235_ml_de_jugo_total() {
+  Assert.assertEquals(235, jugoDeManzanaYNaranja.jugoTotal());
 }
 
 @Test
