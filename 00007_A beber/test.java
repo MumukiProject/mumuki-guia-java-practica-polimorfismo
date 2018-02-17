@@ -102,6 +102,7 @@ public void una_persona_suma_la_mitad_de_vitamina_c_de_un_jugo_de_pomelo() {
 }
 
 @Test
+//Esto da 23.0 por tipos, pero no voy a enseñar castear a double! Asumo que puede ignorarse.
 public void una_persona_suma_la_decima_parte_de_vitamina_c_de_un_jugo_de_manzana_y_naranja() {
   tomadorDeJugoDeManzanaYNaranja.beber(jugoDeManzanaYNaranja);
   Assert.assertEquals(23.5, tomadorDeJugoDeManzanaYNaranja.vitaminaC(), 0.5);  
