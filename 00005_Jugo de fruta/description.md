@@ -4,13 +4,14 @@ Contamos con tres tipos de frutas: manzanas, naranjas y pomelos. De cada una de 
 
 Segundo, si la fruta es ácida. Como usamos manzanas dulces para nuestro jugo, sólo las naranjas y pomelos son ácidos.
 
-Una vez que tenemos la materia prima, podemos armarnos un jugo simple: está compuesto por una única fruta. El jugo puede decirnos si tiene mucha vitamina C, lo cual es cierto si la fruta es ácida y da más de 95ml; y también nos puede decir la cantidad total de jugo, que son los mililitros de la fruta más 100ml de agua (lo diluimos un poquito :grimacing:).
+Una vez que tenemos la materia prima, podemos armarnos un jugo simple: está compuesto por una única fruta. El jugo puede decirnos si tiene mucha vitamina C, lo cual es cierto si la fruta es ácida y da más de 115ml; y también nos puede decir la cantidad total de jugo, que son los mililitros de la fruta más 100ml de agua (lo diluimos un poquito :grimacing:).
 
-> Creá las clases y los métodos necesarios para cumplir con los requerimientos. Te dejamos algunas consultas de ejemplo:
+> Creá las clases, métodos y constructores necesarios para cumplir con los requerimientos. Te dejamos algunas consultas de ejemplo:
 >
 > ```java
 > manzana.jugo();
 > naranja.esAcida();
-> jugoDeNaranja.jugoTotal();
+> jugoDeManzana = new Jugo(Fruta manzana);
 > jugoDePomelo.tieneMuchaVitaminaC();
+> jugoDeNaranja.jugoTotal();
 > ```
