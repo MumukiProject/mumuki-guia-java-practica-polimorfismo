@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: Persona
+  inspection: DeclaresMethod:vitaminaC
+- binding: Persona
+  inspection: DeclaresMethod:beber
