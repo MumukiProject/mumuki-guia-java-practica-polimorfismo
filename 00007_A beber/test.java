@@ -8,7 +8,7 @@ JugoMixto jugoDeManzanaYNaranja = new JugoMixto(manzana, naranja);
 JugoMixto jugoDeNaranjaYPomelo = new JugoMixto(naranja, pomelo);
 JugoMixto jugoDeManzanaYPomelo = new JugoMixto(manzana, pomelo);
 Persona tomadorDeJugoDePomelo = new Persona();
-Persona tomadorDeJugoDeManzanaYPomelo = new Persona();
+Persona tomadorDeJugoDeManzanaYNaranja = new Persona();
 
 @Test
 public void una_manzana_da_80_ml_de_jugo() {
@@ -102,7 +102,7 @@ public void una_persona_suma_la_mitad_de_vitamina_c_de_un_jugo_de_pomelo() {
 }
 
 @Test
-public void una_persona_suma_la_decima_parte_de_vitamina_c_de_un_jugo_de_manzana_y_pomelo() {
-  tomadorDeJugoDeManzanaYPomelo.beber(jugoDeManzanaYPomelo);
-  Assert.assertEquals(26.0, tomadorDeJugoDeManzanaYPomelo.vitaminaC(), 0);  
+public void una_persona_suma_la_decima_parte_de_vitamina_c_de_un_jugo_de_manzana_y_naranja() {
+  tomadorDeJugoDeManzanaYNaranja.beber(jugoDeManzanaYNaranja);
+  Assert.assertEquals(23.5, tomadorDeJugoDeManzanaYNaranja.vitaminaC(), 0.5);  
 }
