@@ -1,7 +1,13 @@
 Ahora que ya tenemos qué enviar... ¡enviémoslo! :email: 
 
-Un `EnvioCortaDistancia` tiene una ciudad origen y una ciudad destino, las cuales saben calcular su `distancia` a otra. Además, el envío sabe qué va a enviar: un `Distribuible`, que puede ser tanto una `Caja` como un `Paquete`.
+Un `EnvioCortaDistancia` conoce la ciudad desde donde parte el envío. Le podemos preguntar si `puedeEnviar` un `Distribuible` (es decir, tanto una `Carta` como un `Paquete`) a alguna otra ciudad: esto ocurre si el `Distribuible` es pequeño y la distancia entre ciudades es menor a 200km.
 
-Para los envíos corta distancia, el distribuible `sePuedeEnviar` si es pequeño y la distancia entre ciudades es menor a 200km. Además, tiene un `costo`: es la distancia entre ciudades sumada al peso en gramos del distribuible.
+Además, tiene un `costo` para cada `Distribuible`, que también depende de adónde se quiere enviar: se calcula como la distancia entre ciudades sumada al peso en gramos de la carta o paquete.
 
-> Creá las clases e interfaces correspondientes, asumiendo que ya existe la clase `Ciudad`.
+> Creá las clases e interfaces correspondientes, asumiendo que ya existe la clase `Ciudad` que sabe decirnos su `distancia` a otra. Deben poder realizarse consultas como las siguientes:
+>
+>```java
+>envioDesdeLasToninas = new EnvioCortaDistancia(lasToninas);
+>envioDesdeLasToninas.sePuedeEnviarA(paquetito, marDelPlata);
+>envioDesdeLasToninas.costo(cartaDeAmor, sanClemente);
+>```
