@@ -4,5 +4,3 @@ expectations:
   inspection: Implements:Distribuible
 - binding: Paquete
   inspection: Implements:Distribuible
-- binding: puedeEnviar
-  inspection: Not:TypesParameterAs
