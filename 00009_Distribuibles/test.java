@@ -61,10 +61,10 @@ public void una_carta_no_puede_enviarse_entre_ciudades_de_distancia_mayor_a_200_
 
 @Test
 public void el_costo_de_envio_de_un_paquete_depende_de_su_peso_y_la_distancia_entre_ciudades() {
- Assert.assertEquals(224, envioDesdeMarDelTuyu.puedeEnviar(paqueteChico, santaClara)); 
+ Assert.assertEquals(224, envioDesdeMarDelTuyu.costo(paqueteChico, santaClara)); 
 }
 
 @Test
 public void el_costo_de_envio_de_una_carta_depende_de_su_peso_y_la_distancia_entre_ciudades() {
- Assert.assertEquals(66, envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, santaClara));
+ Assert.assertEquals(66, envioDesdeMarDelTuyu.costo(cartaCorta, santaClara));
 }
