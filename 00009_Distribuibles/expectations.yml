@@ -4,7 +4,5 @@ expectations:
   inspection: Implements:Distribuible
 - binding: Paquete
   inspection: Implements:Distribuible
-- binding: costo
-  inspection: Assigns:Distribuible
 - binding: puedeEnviar
   inspection: Not:Uses:Paquete
