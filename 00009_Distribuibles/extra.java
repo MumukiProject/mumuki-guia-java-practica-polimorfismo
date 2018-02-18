@@ -1,7 +1,7 @@
 class Ciudad {
   int kilometros;
   
-  Ciudad(ubicacionEnKilometros) {
+  Ciudad(int ubicacionEnKilometros) {
     kilometros = ubicacionEnKilometros;
   }
   

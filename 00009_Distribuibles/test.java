@@ -46,25 +46,25 @@ public void el_peso_de_una_carta_depende_de_su_cantidad_de_lineas_y_el_peso_del_
 
 @Test
 public void un_paquete_pequenio_puede_enviarse_entre_ciudades_de_distancia_menor_a_200_km() {
- Assert.assertTrue(envioDesdeMarDelTuyu.puedeEnviar(paqueteChico, santaClara)) 
+ Assert.assertTrue(envioDesdeMarDelTuyu.puedeEnviar(paqueteChico, santaClara));
 }
 
 @Test
 public void un_paquete_que_no_es_pequenio_no_puede_enviarse_entre_ciudades_de_distancia_menor_a_200_km() {
- Assert.assertFalse(envioDesdeMarDelTuyu.puedeEnviar(paqueteGrande, santaClara)) 
+ Assert.assertFalse(envioDesdeMarDelTuyu.puedeEnviar(paqueteGrande, santaClara)); 
 }
 
 @Test
 public void una_carta_no_puede_enviarse_entre_ciudades_de_distancia_mayor_a_200_km() {
- Assert.assertFalse(envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, ushuaia)) 
+ Assert.assertFalse(envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, ushuaia));
 }
 
 @Test
 public void el_costo_de_envio_de_un_paquete_depende_de_su_peso_y_la_distancia_entre_ciudades() {
- Assert.assertEquals(224, envioDesdeMarDelTuyu.puedeEnviar(paqueteChico, santaClara)) 
+ Assert.assertEquals(224, envioDesdeMarDelTuyu.puedeEnviar(paqueteChico, santaClara)); 
 }
 
 @Test
 public void el_costo_de_envio_de_una_carta_depende_de_su_peso_y_la_distancia_entre_ciudades() {
- Assert.assertEquals(66, envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, santaClara)) 
+ Assert.assertEquals(66, envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, santaClara));
 }
