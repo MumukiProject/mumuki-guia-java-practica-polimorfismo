@@ -50,6 +50,11 @@ public void un_paquete_pequenio_puede_enviarse_entre_ciudades_de_distancia_menor
 }
 
 @Test
+public void un_paquete_pequenio_no_puede_enviarse_entre_ciudades_de_distancia_mayor_a_200_km() {
+ Assert.assertTrue(envioDesdeMarDelTuyu.puedeEnviar(paqueteChico, ushuaia));
+}
+
+@Test
 public void un_paquete_que_no_es_pequenio_no_puede_enviarse_entre_ciudades_de_distancia_menor_a_200_km() {
  Assert.assertFalse(envioDesdeMarDelTuyu.puedeEnviar(paqueteGrande, santaClara)); 
 }
