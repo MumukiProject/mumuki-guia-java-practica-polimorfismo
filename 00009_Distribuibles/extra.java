@@ -10,6 +10,6 @@ class Ciudad {
   }
   
   int distancia(Ciudad otraCiudad) {
-    return (this.kilometros() - otraCiudad.kilometros()).abs();
+    return (this.kilometros() - otraCiudad.kilometros());
   }
 }
