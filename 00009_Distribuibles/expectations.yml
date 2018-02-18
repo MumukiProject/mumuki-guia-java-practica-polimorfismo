@@ -1,4 +1,10 @@
 ---
 expectations:
+- binding: Carta
+  inspection: Implements:Distribuible
+- binding: Paquete
+  inspection: Implements:Distribuible
+- binding: costo
+  inspection: Uses:Distribuible
 - binding: puedeEnviar
   inspection: Uses:Distribuible
