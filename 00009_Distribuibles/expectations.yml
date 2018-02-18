@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: puedeEnviar
+  inspection: Uses:Distribuible
