@@ -7,4 +7,4 @@ expectations:
 - binding: costo
   inspection: Assigns:Distribuible
 - binding: puedeEnviar
-  inspection: Assigns:Distribuible
+  inspection: Not:Uses:Paquete
