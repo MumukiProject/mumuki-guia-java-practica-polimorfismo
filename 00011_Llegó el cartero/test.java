@@ -100,17 +100,17 @@ public void el_costo_de_envio_urgente_de_una_carta_depende_de_su_peso_y_un_valor
 
 @Test
 public void la_comision_de_un_envio_que_no_se_puede_enviar_es_0(){
-  Assert.assertEquals(0, cartero.comision(envioDesdeMarDelTuyuUrgente, ushuaia), 0); 
+  Assert.assertEquals(0, cartero.comision(envioDesdeMarDelTuyu, ushuaia), 0); 
 }
 
 @Test
 public void la_comision_de_un_envio_corta_distancia_que_se_puede_enviar_es_el_10_porciento(){
-  Assert.assertEquals(6.6, cartera.comision(envioDesdeMarDelTuyu, santaClara), 0); 
+  Assert.assertEquals(6.6, cartera.comision(envioDesdeMarDelTuyu, santaClara), 0.6); 
 }
 
 @Test
 public void la_comision_de_un_envio_urgente_es_el_20_porciento(){
-  Assert.assertEquals(12.2, cartera.comision(envioDesdeMarDelTuyuUrgente, santaClara), 0); 
+  Assert.assertEquals(1002.4, cartera.comision(envioDesdeMarDelTuyuUrgente, santaClara), 0.4); 
 }
 
 //no estoy orgulloso de lo largo que quedó esto
