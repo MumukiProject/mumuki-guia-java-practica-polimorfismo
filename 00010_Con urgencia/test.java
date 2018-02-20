@@ -9,7 +9,7 @@ EnvioUrgente envioDesdeUshuaia = new EnvioUrgente(ushuaia);
 @Test
 public void un_paquete_pequenio_siempre_se_puede_enviar_de_forma_urgente() {
  Assert.assertTrue(envioDesdeUshuaia.puedeEnviar(paqueteChico, santaClara));
- Assert.assertTrue(envioDesdeUshuaia.puedeEnviar(paquetGrande, marDelTuyu));
+ Assert.assertTrue(envioDesdeUshuaia.puedeEnviar(paqueteGrande, marDelTuyu));
 }
 
 @Test
