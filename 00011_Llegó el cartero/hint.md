@@ -1,0 +1,1 @@
+La comisión puede contener decimales. ¡Recordá elegir un tipo apropiado!
