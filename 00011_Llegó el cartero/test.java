@@ -64,6 +64,7 @@ public void un_paquete_que_no_es_pequenio_no_puede_enviarse_entre_ciudades_de_di
 
 @Test
 public void una_carta_no_puede_enviarse_entre_ciudades_de_distancia_mayor_a_200_km() {
+  Assert.assertEquals(100, envioDesdeMarDelTuyu.ciudad.distancia(ushuaia));
  Assert.assertFalse("envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, ushuaia) debería ser false, pero fue true", envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, ushuaia));
 }
 
