@@ -12,7 +12,7 @@ Cartero cartera = new Cartero(cartaCorta);
 
 @Test
 public void un_paquete_de_volumen_menor_a_2000_cm3_es_pequenio() {
-  Assert.assertTrue(paqueteChico.esPequenio(), "paqueteChico.esPequenio() debería ser true, pero fue false");
+  Assert.assertTrue("paqueteChico.esPequenio() debería ser true, pero fue false", paqueteChico.esPequenio());
 }
 
 @Test
@@ -64,7 +64,7 @@ public void un_paquete_que_no_es_pequenio_no_puede_enviarse_entre_ciudades_de_di
 
 @Test
 public void una_carta_no_puede_enviarse_entre_ciudades_de_distancia_mayor_a_200_km() {
- Assert.assertFalse(envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, ushuaia), "envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, ushuaia) debería ser false, pero fue true");
+ Assert.assertFalse("envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, ushuaia) debería ser false, pero fue true", envioDesdeMarDelTuyu.puedeEnviar(cartaCorta, ushuaia));
 }
 
 @Test
