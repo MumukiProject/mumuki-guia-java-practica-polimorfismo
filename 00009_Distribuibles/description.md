@@ -4,7 +4,7 @@ Un `EnvioCortaDistancia` conoce la ciudad desde donde parte el envío. Le podemo
 
 Además, tiene un `costo` para cada `Distribuible`, que también depende de adónde se quiere enviar: se calcula como la distancia entre ciudades sumada al peso en gramos de la carta o paquete.
 
-> Creá las clases e interfaces correspondientes, asumiendo que ya existe la clase `Ciudad` que sabe decirnos su `distancia` a otra. Deben poder realizarse consultas como las siguientes:
+> Creá las clases e interfaces correspondientes, asumiendo que ya existe la clase `Ciudad` que sabe decirnos su `distancia` a otra (ojo que puede ser negativa :eyes:). Deben poder realizarse consultas como las siguientes:
 >
 >```java
 >envioDesdeLasToninas = new EnvioCortaDistancia(lasToninas);
