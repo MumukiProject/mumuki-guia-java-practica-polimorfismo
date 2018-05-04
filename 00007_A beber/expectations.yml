@@ -4,3 +4,5 @@ expectations:
   inspection: DeclaresMethod:vitaminaC
 - binding: Persona
   inspection: DeclaresMethod:beber
+- binding: "*"
+  inspection: DeclaresInterface
