@@ -6,3 +6,7 @@ expectations:
   inspection: DeclaresMethod:beber
 - binding: "*"
   inspection: DeclaresInterface
+- binding: JugoSimple
+  inspection: Implements
+- binding: JugoMixto
+  inspection: Implements
