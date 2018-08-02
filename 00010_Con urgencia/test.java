@@ -19,10 +19,10 @@ public void una_carta_siempre_se_puede_enviar_de_forma_urgente() {
 
 @Test
 public void el_costo_de_envio_urgente_de_un_paquete_depende_de_su_peso_y_un_valor_fijo() {
- Assert.assertEquals(5170, envioDesdeMarDelTuyu.costo(paqueteChico, ushuaia), 0); 
+ Assert.assertEquals(5170, envioDesdeMarDelTuyu.costo(paqueteChico, ushuaia)); 
 }
 
 @Test
 public void el_costo_de_envio_urgente_de_una_carta_depende_de_su_peso_y_un_valor_fijo() {
- Assert.assertEquals(5012, envioDesdeMarDelTuyu.costo(carta, ushuaia), 0);
+ Assert.assertEquals(5012, envioDesdeMarDelTuyu.costo(carta, ushuaia));
 }

@@ -22,7 +22,7 @@ public void un_paquete_de_volumen_mayor_a_2000_cm3_no_es_pequenio() {
 
 @Test
 public void el_peso_de_un_paquete_es_el_de_su_contenido_mas_el_de_la_caja() {
-  Assert.assertEquals(170, paqueteChico.peso());
+  Assert.assertEquals(170, paqueteChico.peso(), 0);
 }
 
 @Test
@@ -69,12 +69,12 @@ public void una_carta_no_puede_enviarse_entre_ciudades_de_distancia_mayor_a_200_
 
 @Test
 public void el_costo_de_envio_de_un_paquete_depende_de_su_peso_y_la_distancia_entre_ciudades() {
- Assert.assertEquals(224, envioDesdeMarDelTuyu.costo(paqueteChico, santaClara)); 
+ Assert.assertEquals(224, envioDesdeMarDelTuyu.costo(paqueteChico, santaClara), 0); 
 }
 
 @Test
 public void el_costo_de_envio_de_una_carta_depende_de_su_peso_y_la_distancia_entre_ciudades() {
- Assert.assertEquals(66, envioDesdeMarDelTuyu.costo(cartaCorta, santaClara));
+ Assert.assertEquals(66, envioDesdeMarDelTuyu.costo(cartaCorta, santaClara), 0);
 }
 
 @Test
@@ -90,12 +90,12 @@ public void una_carta_siempre_se_puede_enviar_de_forma_urgente() {
 
 @Test
 public void el_costo_de_envio_urgente_de_un_paquete_depende_de_su_peso_y_un_valor_fijo() {
- Assert.assertEquals(5170, envioDesdeMarDelTuyuUrgente.costo(paqueteChico, ushuaia)); 
+ Assert.assertEquals(5170, envioDesdeMarDelTuyuUrgente.costo(paqueteChico, ushuaia), 0); 
 }
 
 @Test
 public void el_costo_de_envio_urgente_de_una_carta_depende_de_su_peso_y_un_valor_fijo() {
- Assert.assertEquals(5012, envioDesdeMarDelTuyuUrgente.costo(cartaCorta, ushuaia));
+ Assert.assertEquals(5012, envioDesdeMarDelTuyuUrgente.costo(cartaCorta, ushuaia), 0);
 }
 
 @Test
