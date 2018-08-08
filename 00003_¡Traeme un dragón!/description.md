@@ -9,7 +9,7 @@ Boveda boveda = new Boveda();
 boveda.asegurarCon(new SeguridadAlta());
 boveda.depositarMonedas(20); // deposita 19 monedas
 boveda.depositarMonedas(10); // deposita 9 monedas
-boveda.getSaldo(); // devuelve 29, porque la seguridad 
+boveda.getSaldo(); // devuelve 28, porque la seguridad 
                    // alta se cobró 2 monedas
 boveda.extraerMonedas(50); // ¡lanza una excepción!
 ```
