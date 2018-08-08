@@ -9,6 +9,7 @@ Veamos un ejemplo:
 
 ```java
 Boveda boveda = new Boveda();
+boveda.getSaldo(); // Es 0 porque la boveda comienza con 0 saldo
 boveda.asegurarCon(new SeguridadMedia());
 boveda.extraerMonedas(20);
 boveda.getSaldo(); // Sigue siendo 0
