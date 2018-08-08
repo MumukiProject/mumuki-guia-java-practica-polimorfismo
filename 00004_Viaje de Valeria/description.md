@@ -4,14 +4,14 @@ La fórmula es la siguiente: `costoTotal = costoDelTransporte + costoDelAlojamie
 
 Todos los transportes saben calcular su `costoTotal`:
 
-* Tomar un **avión** cuesta 2 veces su `costoPasaje`.
-* Tomar un **micro** cuesta siempre $500.
-* ¡Ir en **bicicleta** siempre es gratis!
+* Tomar un `Avion` cuesta 2 veces su `costoPasaje`.
+* Tomar un `Micro` cuesta siempre $500.
+* ¡Ir en `Bicicleta` siempre es gratis!
 
 Los alojamientos pueden calcular su `arancel`:
 
-* Los **hoteles** lo calculan multiplicando la `cantidadDeEstrellas` por la `cantidadDeNoches`.
-* Los **departamentos** cuestan siempre $1000, excepto que estén marcados como que `incluyeDesayuno`, en ese caso cuestan el doble.
+* Un  `Hotel` lo calculan multiplicando la `cantidadDeEstrellas` por la `cantidadDeNoches`;
+* un `Departamento` cuestan siempre $1000, excepto que estén marcados como que `incluyeDesayuno`, en ese caso cuestan el doble.
 
 > Desarrollá una solución. Ya te dejamos como base la clase `Viaje` :wink: 
 
