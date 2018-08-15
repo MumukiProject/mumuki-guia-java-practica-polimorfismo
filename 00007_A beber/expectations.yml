@@ -1,7 +1,7 @@
 ---
 expectations:
 - binding: Persona
-  inspection: DeclaresMethod:vitaminaC
+  inspection: DeclaresMethod:getVitaminaC
 - binding: Persona
   inspection: DeclaresMethod:beber
 - binding: "*"
