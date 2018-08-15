@@ -1,4 +1,4 @@
-Ahora, ¡enviemos algunas cosas! :envelope: :package:
+Ahora, ¡enviemos algunas cosas! :envelope:
 
 Queremos enviar cartas y paquetes y, en principio, nos vamos a concentrar en las propiedades físicas de nuestras encomiendas. Un paquete sabe el volumen en centímetros cúbicos (cm³) y el peso de su contenido. El paquete `esPequenio` si su volumen es menor a 2000cm³ y `esLiviano` si su peso es menor a 200g. Su `peso` se determina agregándole 50g, que es lo que pesa la caja, al peso del contenido. 
 
