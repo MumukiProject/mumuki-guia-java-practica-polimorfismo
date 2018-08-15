@@ -92,18 +92,18 @@ public void un_jugo_mixto_de_manzana_y_pomelo_tiene_260_ml_de_jugo_total() {
 
 @Test
 public void una_persona_tiene_0_vitamina_c_inicialmente() {
-  Assert.assertEquals(0, tomadorDeJugoDePomelo.vitaminaC(), 0);  
+  Assert.assertEquals(0, tomadorDeJugoDePomelo.getVitaminaC(), 0);  
 }
 
 @Test
 public void una_persona_suma_la_mitad_de_vitamina_c_de_un_jugo_de_pomelo() {
   tomadorDeJugoDePomelo.beber(jugoDePomelo);
-  Assert.assertEquals(115, tomadorDeJugoDePomelo.vitaminaC(), 0);  
+  Assert.assertEquals(115, tomadorDeJugoDePomelo.getVitaminaC(), 0);  
 }
 
 @Test
 //Esto da 23.0 por tipos, pero no voy a enseñar castear a double! Asumo que puede ignorarse.
 public void una_persona_suma_la_decima_parte_de_vitamina_c_de_un_jugo_de_manzana_y_naranja() {
   tomadorDeJugoDeManzanaYNaranja.beber(jugoDeManzanaYNaranja);
-  Assert.assertEquals(23.5, tomadorDeJugoDeManzanaYNaranja.vitaminaC(), 0.5);  
+  Assert.assertEquals(23.5, tomadorDeJugoDeManzanaYNaranja.getVitaminaC(), 0.5);  
 }
