@@ -1,4 +1,4 @@
-¡Tomemos un delicioso jugo de frutas! :tangerine: :apple:
+Demasiada charla de bancos, ¿no? ¡Tomemos un delicioso jugo de frutas para descansar! :tangerine: :apple:
 
 Contamos con tres tipos de frutas: manzanas, naranjas y pomelos. De cada una de ellas sabemos dos cosas. Primero, cuántos mililitros de jugo da una fruta promedio de ese tipo: las manzanas dan 80ml y las naranjas 105ml, mientras que los pomelos dan 130ml.
 
