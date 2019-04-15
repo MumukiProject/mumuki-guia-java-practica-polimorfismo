@@ -3,7 +3,6 @@ name: Práctica Polimorfismo
 locale: es
 type: learning
 beta: false
-teacher_info: ''
 language: java
 id_format: "%05d"
 order:
@@ -18,3 +17,4 @@ order:
 - 9
 - 10
 - 11
+private: false

@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: DeclaresClass:SeguridadAlta
-- binding: SeguridadAlta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: SeguridadAlta
   inspection: Implements:*
-- binding: Intransitive:Boveda
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:Boveda
   inspection: Not:UsesIf

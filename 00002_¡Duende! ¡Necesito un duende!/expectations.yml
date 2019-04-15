@@ -1,10 +1,14 @@
 ---
 expectations:
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: DeclaresInterface
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: UsesStaticPolymorphism
-- binding: SeguridadBaja
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: SeguridadBaja
   inspection: Implements:*
-- binding: SeguridadMedia
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: SeguridadMedia
   inspection: Implements:*

@@ -1,12 +1,17 @@
 ---
 expectations:
-- binding: Persona
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Persona
   inspection: DeclaresMethod:getVitaminaC
-- binding: Persona
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Persona
   inspection: DeclaresMethod:beber
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: DeclaresInterface
-- binding: JugoSimple
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: JugoSimple
   inspection: Implements
-- binding: JugoMixto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: JugoMixto
   inspection: Implements

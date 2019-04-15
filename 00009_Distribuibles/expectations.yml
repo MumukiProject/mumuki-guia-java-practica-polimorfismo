@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: Carta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Carta
   inspection: Implements:Distribuible
-- binding: Paquete
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Paquete
   inspection: Implements:Distribuible
