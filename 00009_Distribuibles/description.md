@@ -8,6 +8,6 @@ Además, tiene un `costo` para cada `Distribuible`, que también depende de adó
 >
 >```java
 >envioDesdeLasToninas = new EnvioCortaDistancia(lasToninas);
->envioDesdeLasToninas.puedeEnviarA(paquetito, marDelPlata);
+>envioDesdeLasToninas.puedeEnviar(paquetito, marDelPlata);
 >envioDesdeLasToninas.costo(cartaDeAmor, sanClemente);
 >```
