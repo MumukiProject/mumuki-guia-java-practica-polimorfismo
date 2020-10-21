@@ -1,6 +1,6 @@
 /*...previousContent...*/
 
-class SeguridadAlta {
+class SeguridadMedia {
   // completá acá...
 }
 
