@@ -7,5 +7,5 @@ El `Cartero` conoce inicialmente un `Distribuible`, que es lo que pretende envia
 >```java
 >cartero = new Cartero(cartaDocumento);
 >carteroEnBici.comision(envioUrgente, piedraDelAguila);
->carteraEnCamion.comision(envioCortaDistancia, sanRafael);
+>carteroEnCamion.comision(envioCortaDistancia, sanRafael);
 >```
